@@ -1,6 +1,5 @@
 # Local Terraform directories and files
 .terraform/
-.terraform.lock.hcl
 
 # Terraform state files
 terraform.tfstate
@@ -9,12 +8,6 @@ terraform.tfstate.backup
 # Terraform variables files (store sensitive data)
 *.tfvars
 
-# Ignore logs and system files
-*.log
-*.bak
-.DS_Store
-
 # Ignore any temp files or IDE-specific settings
-*.swp
 .idea/
 .vscode/

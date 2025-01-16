@@ -1,6 +1,17 @@
 # Interview Assessment - HCP Terraform
 ## Andrian Nikolaev for Support Enginner at HashiCorp
 
+## Install Terraform
+    - Install Terraform using the [HashiCorp](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) documentation for.
+### For Windows with Chocolatey
+    - Install Chocolatey using the [official Chocolatey](https://chocolatey.org/install) documentation.
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+    - Install Terraform with Chocolatey
+```
+choco install terraform
+```
 
 ## Clone project
 ```
